@@ -1,0 +1,29 @@
+@import './../../styles/variables.scss';
+
+.banner {
+    background-color: $yellow;
+    height: 40px;
+    border-bottom: 3px solid $text-color; 
+    padding-left: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: $text-color;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: $primary-font;
+    line-height: 40px;
+
+    &:hover {
+        background-color:#fff;
+        color: $lightblue;
+    }
+}
+
+.active {
+    background-color:#fff;
+    color: $lightblue;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+@import './../../styles/variables.scss';
+
+.homeText {
+    color: $text-color;
+    font-size: 20px;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+
+.homeHeader {
+    font-size: 30px;
+    font-family: $primary-font;
+    font-weight: bold;
+    color: $text-color;
+}
+
+.innerLink {
+    color: $lightblue;
+}
+
+.homeDiv {
+    text-align: center;
+}

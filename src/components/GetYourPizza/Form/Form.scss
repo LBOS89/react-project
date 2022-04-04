@@ -1,0 +1,87 @@
+@import './../../../styles/variables.scss';
+
+.input {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: 2px solid $darkblue;
+    border-radius: 4px;
+    font-family: $primary-font;
+    font-size: 18px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.addButton {
+    display: block;
+    height: 30px;
+    font-size: 18px;
+    font-family: $primary-font;
+    font-weight: bold;
+    color: #000;
+    background-color: $lightblue;
+    border-radius: 5px;
+}
+
+.errorDiv {
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: $primary-font;
+}
+
+.error {
+    font-family: $primary-font;
+    color: red;
+}
+
+.formDiv {
+    font-family: $primary-font;
+    font-weight: bold;
+    margin: 50px;
+    color: $darkblue;
+    font-size: 18px;
+}
+
+.checkbox {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 2px solid $darkblue;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.sending {
+    color: $rust;
+    font-size: 20px;
+    font-family: $primary-font;
+    padding-right: 20px;
+}
+
+.savingDiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.orderPlacedDiv {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.orderPlaced {
+    color: $lightblue;
+    font-size: 35px;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+
+.orderPlacedSub {
+    color: $text-color;
+    font-family: $primary-font;
+    font-weight: bold;
+    font-size: 20px;
+}
